@@ -1,6 +1,9 @@
 # Data-Science-and-Machine-Learning
 
 Student Name: Qader Hussain
+Student ID: C00270632
+Lecture: Greg Doyle
+
 **Linear Regression**
 
 Data Source: https://population.un.org/wpp/Download/Standard/MostUsed/ 
