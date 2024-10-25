@@ -13,9 +13,9 @@ The purpose of this project is to prediuct the Birth to Death ratio in regions u
 The dataset that was used for this project can be downloaded from https://population.un.org/wpp/Download/Standard/MostUsed/ 
 
 # Pre-Processing
-After downloading the the data I need to clean it. 
+After downloading the the data I need to clean it. The first thing was to load the data which was done by reading in the csv. Next I filtered the ```Type```  
 
-# Data Under and Visualisation 
+# Data Understanding and Visualisation 
 
 # Algorithims:
 
