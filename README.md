@@ -33,4 +33,6 @@ the columns to numeric and handled any errors. I then divided the ```Births (tho
 2. Jupter Notebook
 3. Pandas Library
 4. Numpy Library
+5. Matplotlib
+6. Scikit Learn(Sklearn)
  
