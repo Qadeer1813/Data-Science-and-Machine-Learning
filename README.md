@@ -30,7 +30,7 @@ This was the plotted graph, after processing data for the Birth To Death Ratio:
 
 This image shows all the regions of the world and their Birth to Death Ratio in coloured format from 1950-2023.
 
-To get the specific Birth to Death Ratio for certain Regions, Code was implemented which would take a Year and a Subregion specified by the users choice. One can plot the ratio on the graph Using the existing ```cleaned_data```.
+To get the specific Birth to Death Ratio for certain Regions, Code was implemented which would take a Year and a Subregion specified by the users choice. One can plot the ratio on the graph using the existing ```cleaned_data```.
 For example:
 
 ![image](https://github.com/user-attachments/assets/1ee23b81-f81b-470b-a3fa-fda2006b25f8)
