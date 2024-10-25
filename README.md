@@ -6,13 +6,13 @@
 
 **Linear Regression**
 
-#Project Description
+# Project Description
 The purpose of this project is to prediuct the Birth to Death ratio in regions using Linear Regression I was able to plot the graph
 
-#Data Source
+# Data Source
 https://population.un.org/wpp/Download/Standard/MostUsed/ 
 
-#Pre-Processing
+# Pre-Processing
 
 
 Data Under and Visualisation 
