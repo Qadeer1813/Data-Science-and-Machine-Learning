@@ -1,7 +1,9 @@
 # Data-Science-and-Machine-Learning
 
 **Student Name: Qadeer Hussain**
+
 **Student ID: C00270632**
+
 **Lecture: Greg Doyle**
 
 **Linear Regression**
