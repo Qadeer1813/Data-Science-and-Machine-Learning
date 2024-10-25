@@ -9,20 +9,20 @@
 **Linear Regression**
 
 # Project Description
-The purpose of this project is to predict the Birth to Death ratio in regions. I used linear regression to plot the graph. 
+The purpose of this project is to predict the Birth to Death ratio in regions. Linear regression was used to plot the graph. 
 
 # Data Source
 The dataset that was used for this project can be downloaded from https://population.un.org/wpp/Download/Standard/MostUsed/ 
 
 # Processing
-After downloading the dataset I selected the columns I would be using for my Linear Regression. The first step is to load the data. Next I filtered the ```Type``` column by ```Region```. I then conducted a test print ```region_data.head()```.
-I seleected the ```Region, subregion, country or area *``` ```Year```, ```Births (thousands)```, ```Total Deaths (thousands)``` columns which will be used to filter out the Name of the region, Years, Births, and Deaths. I proceeded to run another print on this
-to view the data rows that would be used for plotting. I began to clean any numeric values to remove spaces and commas from the ```Births (thousands)```, ```Total Deaths (thousands)``` columns. I printed the data again. I converted
-the columns to numeric and handled any errors. I then divided the ```Births (thousands)```, ```Total Deaths (thousands)``` columns to get the Birth to death ratio. For example, In 1950 Africa ```Births (thousands)```: 10879 / ```Total Deaths (thousands)```: 6126 = Births to Death Ratio = 1.775873
+After downloading the dataset columns were selected for Linear Regression. Data was loaded and the ```Type``` column by ```Region``` was filtered. A test print was conducted using this code ```region_data.head()```. 
+The ```Region, subregion, country or area *``` ```Year```, ```Births (thousands)```, ```Total Deaths (thousands)``` were selected. These columns were used to filter out the Name of the region, Years, Births, and Deaths. Another print was run
+to view the data rows that would be used for plotting. Numeric values were cleaned to remove spaces and commas from the ```Births (thousands)```, ```Total Deaths (thousands)``` columns. Data was pritnted again and converted
+the columns to numeric and handled any errors. The ```Births (thousands)```, ```Total Deaths (thousands)``` columns were divided to get the Birth to death ratio. For example, In 1950 Africa ```Births (thousands)```: 10879 / ```Total Deaths (thousands)```: 6126 = Births to Death Ratio = 1.775873
 
 # Data Understanding and Visualisation 
 The dataset for this project gives the estimates of all Regions, Subregions and Country/Area. The population, Fertility, Mortality and Migration. After processing for regions and the Fertility Birth Rates and Mortality Death reaths,
-I got the Birth to Death Ratio of the different regions from 1950-2023. 
+The Birth to Death Ratio was created for the different regions from 1950-2023. 
 
 After processing data for the Birth To Death Ratio, this was the plotted graph: 
 
@@ -30,17 +30,16 @@ After processing data for the Birth To Death Ratio, this was the plotted graph:
 
 This image shows all the regions of the world and their Birth to Death Ratio in coloured format from 1950-2023.
 
-To get the specific Birth to Death Ratio for certain Regions, I added code which would take a Year and a Subregion specified by the user. Using the existing ```cleaned_data``` I was able to plot the the Ratio's on the graph.
-
+To get the specific Birth to Death Ratio for certain Regions, Code was implmented which would take a Year and a Subregion specified by the user choice. One can plot the ratio on the graph Using the existing ```cleaned_data```.
 For example:
 
 ![image](https://github.com/user-attachments/assets/1ee23b81-f81b-470b-a3fa-fda2006b25f8)
 
-This plotted Birth to Death Ratio was for Africa and by looking at the Regression line we are able to predict what the futrue Birth rate would be for Africa. 
+This plotted Birth to Death Ratio was for Africa and by looking at the Regression line one can predict what the future Birth rate would be for Africa. 
 
 # Algorithims:
-Linear regression model is applied to the data. This model is trained on th exisiting dataset which for us is the Years and there calculated Birth to Death Ratio. 
-Once the model was traind we can start predicting future for different regions.
+Linear regression model is applied to the data. This model is trained on th exisiting dataset and there calculated Birth to Death Ratio. 
+Once the model was trained we can start predicting future for different regions.
 
 # Online Sources:
 1. Jakevdp (2023) Pythondatasciencehandbook/notebooks/05.06-linear-regression.ipynb at master · JAKEVDP/Pythondatasciencehandbook, GitHub. Available at: https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.06-Linear-Regression.ipynb (Accessed: October 2024). 
