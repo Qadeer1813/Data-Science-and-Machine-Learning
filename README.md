@@ -13,8 +13,9 @@ The purpose of this project is to prediuct the Birth to Death ratio in regions u
 The dataset that was used for this project can be downloaded from https://population.un.org/wpp/Download/Standard/MostUsed/ 
 
 # Pre-Processing
-After downloading the the data I need to clean it. The first thing was to load the data which was done by reading in the csv. Next I filtered the ```Type``` column by ```Region```. I then did a test print ```region_data.head()```
-
+After downloading the data I needed to select which column I would be uing for my Linear Regression it. The first thing was to load the data which was done by reading in the csv. Next I filtered the ```Type``` column by ```Region```. I then did a test print ```region_data.head()```.
+After doing this I seleected the ```Region, subregion, country or area *``` ```Year```, ```Births (thousands)```, ```Total Deaths (thousands)``` columns which I will be using to filter out the Name of the region, Years, Births, and Deaths. I prceeded to run another print on this
+to view the data rows that would be used for plotting. I then started cleaning the data, first the numeric values to remove spaces and commas from the ```Births (thousands)```, ```Total Deaths (thousands)``` columns
 # Data Understanding and Visualisation 
 
 # Algorithims:
