@@ -16,7 +16,7 @@ The dataset that was used for this project can be downloaded from https://popula
 After downloading the data I needed to select which column I would be uing for my Linear Regression it. The first thing was to load the data which was done by reading in the csv. Next I filtered the ```Type``` column by ```Region```. I then did a test print ```region_data.head()```.
 After doing this I seleected the ```Region, subregion, country or area *``` ```Year```, ```Births (thousands)```, ```Total Deaths (thousands)``` columns which I will be using to filter out the Name of the region, Years, Births, and Deaths. I prceeded to run another print on this
 to view the data rows that would be used for plotting. I then started cleaning the data, first stated cleaning any numeric values to remove spaces and commas from the ```Births (thousands)```, ```Total Deaths (thousands)``` columns. I printed the data again. In te same column I converted
-the columns to numeric and handled any errors. I then divided the ```Births (thousands)```, ```Total Deaths (thousands)``` columns to get the Birth to death ratio. An example In 1950 Africa ```Births (thousands)```: 10879 / ```Total Deaths (thousands)```: 6126
+the columns to numeric and handled any errors. I then divided the ```Births (thousands)```, ```Total Deaths (thousands)``` columns to get the Birth to death ratio. An example In 1950 Africa ```Births (thousands)```: 10879 / ```Total Deaths (thousands)```: 6126 = Births to Death Ratio = 1.775873
 
 # Data Understanding and Visualisation 
 
